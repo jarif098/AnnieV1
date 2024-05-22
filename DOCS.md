@@ -17,9 +17,3 @@ annieStart: async function({ bot, msg }) {
     // Utilize the bot to send a message
     bot.sendMessage(msg.chat.id, "hey");
 }
-
-
-
-
-
-
