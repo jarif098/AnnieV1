@@ -6,6 +6,10 @@
 ### Installation and Requirements: [Detailed guide here](https://github.com/jarif098/AnnieV1/blob/main/README.md)
 
 
+### MORE INFO:
+
+### Read this Docs to know more info about node-telegram-bot-api : [Here](https://www.npmjs.com/package/node-telegram-bot-api)
+
 - **Getting Started:**
 ```javascript
 // annieBot Function
@@ -14,12 +18,8 @@ annieStart: async function({ bot, msg }) {
     bot.sendMessage(msg.chat.id, "hey");
 }
 
-<hr />
 
 
-### MORE INFO:
-
-Read this Docs to know more info about node-telegram-bot-api :  [here](https://www.npmjs.com/package/node-telegram-bot-api)
 
 
-<hr />
+
