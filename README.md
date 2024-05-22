@@ -23,10 +23,10 @@
 git clone https://github.com/jarif098/AnnieV1.git
 ```
 
-• Move to AnnieV1Bot directory
+• Move to AnnieV1 directory
 
 ```bash
-cd AnnieV1Bot
+cd AnnieV1
 ```
 
 • Collect bot token from  [BOTFATHER](https://t.me/botfather) and place it in config.json
