@@ -1,14 +1,15 @@
 {
     "tg": [
-        "6561806006:AAE_OXU9QnZ5bdijWft4nZJqLuzUmsjxcbc"
+        "get_the_bot_token_from_tg_botfather"
     ],
     "prefix": "-",
-    "webhookURL": "https://discord.com/api/webhooks/1242217388443828324/rO5UjVL8mx-zgMnhaT4We-v0xFS21paYo7ft7VpmDBui1F94NosM00lVBKpmNkfjDeBh", 
+    "webhookURL": "your_webhookURL", 
     "supportGroupText": "Welcome to the bot! Type `help to see all available commands.\nJoin the support box to know how to use or how to create these types of bots: https://t.me/+YNKDd9_jIeYxNDQ1",
     "prefixText": "🌐 System prefix:",
     "botName": "annie",
     "adminUids": [
      "6371757771"
-    ]
+    ],
+    "note": "bot name is important but add a single name. add supportGroupText,add the webhookURL for spying : )"
 }
 
