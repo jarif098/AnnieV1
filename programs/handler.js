@@ -9,10 +9,15 @@ module.exports = async (bot) => {
     const startCommand = async (msg) => {
         await bot.sendMessage(msg.chat.id, startMessage);
     };
-    bot.onText(/\/start/i, startCommand);
-    bot.onText(new RegExp(`^${prefix}start`, 'i'), startCommand);
 
-    bot.onText(new RegExp(`^${prefix}start`, 'i'), startCommand);
+    function escapeRegExp(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); 
+    }
+
+    bot.onText(/\/start/i, startCommand);
+    bot.onText(new RegExp(`^${escapeRegExp(prefix)}start`, 'i'), startCommand);
+
+
 
     bot.on('message', async (msg) => {
         if (!msg.text) return; 
@@ -64,7 +69,7 @@ module.exports = async (bot) => {
                             reply_to_message_id: msg.message_id
                         }
                     );
-                 
+
                 }
             });
         } catch (error) {
