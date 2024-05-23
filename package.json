@@ -1,0 +1,42 @@
+{
+  "name": "annie-v1",
+  "version": "1.0.0",
+  "description": "A Powerful telegram bot by JARiF",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "JARiF & Eijah Noah left the chat.",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "archiver": "^7.0.1",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "canvas": "^2.11.2",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cli-color": "^2.0.4",
+    "discord.js": "^14.14.1",
+    "discord.js-light": "^4.10.0",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "jarif-api": "^1.0.2",
+    "javascript-obfuscator": "^4.0.2",
+    "jimp": "^0.22.12",
+    "lodash": "^4.17.21",
+    "mime-db": "^1.52.0",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.2.6",
+    "node-telegram-bot-api": "^0.65.1",
+    "qs": "^6.12.1",
+    "tinyurl": "^1.1.7",
+    "uuid": "^9.0.0",
+    "vm2": "^3.9.19",
+    "yt-search": "^2.11.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
