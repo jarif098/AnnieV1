@@ -11,7 +11,7 @@
 
 ## Installation ##
 
-• [Install AnnieV1Bot on Replit](soon)
+• [Install AnnieV1Bot on Replit](https://replit.com/@fatin098/AnnieV1#config.json)
 
 • Import to [Replit](https://github.com/jarif098/AnnieV1) 
 
