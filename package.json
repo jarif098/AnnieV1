@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "JARiF & Eijah Noah left the chat.",
+  "author": "JARiF (Eijah Noah left the chat.)",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^18.0.6",
