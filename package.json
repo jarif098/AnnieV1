@@ -1,6 +1,6 @@
 {
   "name": "annie-v1",
-  "version": "1.0.0",
+  "version": "1.1",
   "description": "A Powerful telegram bot by JARiF",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "JARiF (Eijah Noah left the chat.)",
   "license": "MIT",
   "dependencies": {
+    "@neoxr/ytdl-core": "^4.11.5",
     "@types/node": "^18.0.6",
     "archiver": "^7.0.1",
     "axios": "^1.6.8",
@@ -36,7 +37,6 @@
     "tinyurl": "^1.1.7",
     "uuid": "^9.0.0",
     "vm2": "^3.9.19",
-    "yt-search": "^2.11.0",
-    "ytdl-core": "^4.11.5"
+    "yt-search": "^2.11.0"
   }
 }
