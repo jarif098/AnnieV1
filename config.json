@@ -10,6 +10,7 @@
     "adminUids": [
      "6371757771"
     ],
+    "PORT": 3000,
     "note": "bot name is important but add a single name. add supportGroupText,add the webhookURL for spying : )"
 }
 
