@@ -1,6 +1,6 @@
 const fs = require("fs-extra");
 const axios = require("axios");
-const ytdl = require("ytdl-core");
+const ytdl = require("@neoxr/ytdl-core");
 const yts = require("yt-search");
 const { shorten } = require('tinyurl');
 
