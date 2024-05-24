@@ -9,7 +9,7 @@
 
 • [NodeJS](https://nodejs.org/en/) v16.x
 
-## Installation ##
+## Installation
 
 • [Install AnnieV1Bot on Replit](https://replit.com/@fatin098/AnnieV1#config.json)
 
