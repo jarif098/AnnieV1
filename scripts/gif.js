@@ -10,10 +10,10 @@ module.exports = {
         category: "FUN",
         role: 1,
     },
-    annieStart: async function({ bot, msg, match }) {
+    annieStart: async function({ bot, msg }) {
         try {
             const chatId = msg.chat.id;
-            const query = match[1];
+            const query = msg.text.split(' ').slice(1).join(' ');
 
             if (!query) {
                 await bot.sendMessage(chatId, 'Please provide a prompt.');
